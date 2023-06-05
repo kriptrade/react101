@@ -1,0 +1,42 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/pdas/node_modules
+/animals/node_modules
+
+/pdas/.pnp
+/pdas/.pnp.js
+
+/animals/.pnp
+/animals/.pnp.js
+
+
+# testing
+/pdas/coverage
+/animals/coverage
+
+# production
+/pdas//build
+/animals//build
+
+# misc
+/pdas/.DS_Store
+/pdas/.env.local
+/pdas/.env.development.local
+/pdas/.env.test.local
+/pdas/.env.production.local
+
+/animals/.DS_Store
+/animals/.env.local
+/animals/.env.development.local
+/animals/.env.test.local
+/animals/.env.production.local
+
+
+/pdas/npm-debug.log*
+/pdas/yarn-debug.log*
+/pdas/yarn-error.log*
+
+/animals/npm-debug.log*
+/animals/yarn-debug.log*
+/animals/yarn-error.log*
