@@ -3,6 +3,7 @@
 # dependencies
 /pdas/node_modules
 /animals/node_modules
+/picture-search/node_modules
 
 /pdas/.pnp
 /pdas/.pnp.js
